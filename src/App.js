@@ -5,6 +5,7 @@ import Inventory from './components/Inventory/Inventory';
 import Orders from './components/Orders/Orders';
 import Shop from './components/Shop/Shop';
 import Main from './layouts/Main';
+import { productsAndCartLoader } from './loaders/productsAndCartLoaders';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         },
         {
           path: 'orders',
-          loader: () => fetch('products.json'),
+          loader: productsAndCartLoader,
           element: <Orders></Orders>
         },
         {
@@ -33,6 +34,10 @@ function App() {
         }
       ]
     },
+    {
+      path: '*',
+      element: <div>404 This route is not found!!</div>
+    }
   ])
 
   return (

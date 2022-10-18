@@ -7,3 +7,33 @@
 .cart h2 {
     text-align: center;
 }
+
+.btn-review {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(255, 180, 42);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-review:hover {
+    background-color: orange;
+}
+
+.btn-clear {
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #eb6262;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-clear:hover {
+    background-color: #e44b4b;
+}
