@@ -2,6 +2,7 @@
     position: sticky;
     top: 120px;
     padding: 0 30px;
+    height: 100vh;
 }
 
 .cart h2 {
