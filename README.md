@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Ema-Jhon
+This is a practice project for a simple shopping website. It is built using react, firebase auth, and CSS3. This project is hosted on firebase.
+
+## Live Link
+https://ema-john-simple-10748.web.app/
